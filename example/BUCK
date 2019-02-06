@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'sample-advanced',
+  srcs = [
+    'sample_advanced.cpp',
+  ],
+  deps = [
+    '//:format',
+  ],
+)
